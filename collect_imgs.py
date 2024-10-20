@@ -6,7 +6,7 @@ DATA_DIR = './data'
 if not os.path.exists(DATA_DIR):
     os.makedirs(DATA_DIR)
 
-number_of_classes = 3
+number_of_classes = 36 #26 alphabets and 10 digits
 dataset_size = 100
 
 # Initialize the camera
